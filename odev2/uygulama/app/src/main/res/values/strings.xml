@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Odev2</string>
+    <string name="name">Doğukan Kara</string>
+    <string name="age">Yaşım 21</string>
+    <string name="high_school">Anadolu lisesi mevzunuyum</string>
+    <string name="hometown">Memleketim Aradahan</string>
+    <string name="works"> Bir süre Java ile yazılım geliştirdikten sonra daha farklı dillere yöneldim. HTML5, CSS3, JavaScript konularında yani web alanında kendimi geliştirmeye çalışıyorum.</string>
+</resources>
