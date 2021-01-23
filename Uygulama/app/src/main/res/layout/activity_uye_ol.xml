@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UyeOl">
+
+    <TextView
+        android:layout_marginBottom="150dp"
+        android:id="@+id/textView2"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Üye Ol" />
+
+
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:id="@+id/edtUyeOlMail"
+        />
+    <EditText
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Şifre"
+        android:id="@+id/edtUyeOlSifre"
+        />
+    <Button
+        android:layout_marginBottom="30dp"
+        android:id="@+id/HesabiOlBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hesabı oluştur"
+        >
+    </Button>
+    <Button
+        android:id="@+id/geriBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geri"
+        >
+    </Button>
+
+</LinearLayout>
